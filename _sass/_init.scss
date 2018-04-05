@@ -2,11 +2,11 @@
 
 // base variable
 
-$orange:  #ff6300;
-$gold:  #ffb700;
-$yellow:  #ffd700;
-$red: #E7040F;
-$green: #19A974;
+$orange:  #ff6300 !default;
+$gold:  #ffb700 !default;
+$yellow:  #ffd700 !default;
+$red: #E7040F !default;
+$green: #19A974 !default;
 
 $primary: $red !default;
 $warning: $gold !default;
