@@ -77,6 +77,7 @@ $primary: #82bc00;
  @import 'styles';
 
  @import "base/elements";
+ @import "partials/foodMenu";
 
 
 .bg-primary  { background-color: $primary }
