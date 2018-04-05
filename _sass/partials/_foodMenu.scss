@@ -2,5 +2,8 @@
   border-radius: 25px;
   box-shadow:
   0 0 0 1px $white, 0 0 0 8px $dark-gray, 0 0 0 12px $white;
-  padding: 2rem;
-}
+  padding: 4rem 2rem;
+  @include mq(ns) {
+    padding: 2rem;
+  }
+ }
