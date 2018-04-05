@@ -1,17 +1,19 @@
-- name: Eric Mill
-  email: eric@email.com
-  image: portrait
-  paragraph: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-  linkedin: /
+- icon: react.svg
+  heading: Bulgogi Beef Sandwich
+  subheading: Bap, bulgogi beef, salad, cheese, egg
+  price: 7
 
-- name: Parker Moore
-  email: parker@email.com
-  image: portrait
-  paragraph: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-  linkedin: /
+- icon: react.svg
+  heading: Bulgogi Beef Bibimbap
+  subheading: Rice, bulgogi beef, salad, vegetables, cheese, egg
+  price: 7
 
-- name: Liu Fengyun
-  email: liu@email.com
-  image: portrait
-  paragraph: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-  linkedin: /
+- icon: react.svg
+  heading: Vegetarian Bibimbap
+  subheading: Rice bowl, salad, vegetables, egg
+  price: 6
+
+- icon: react.svg
+  heading: Korean Sweet Crispy Chicken
+  subheading: Fried chicken, Korean sweet sauce
+  price: 5
