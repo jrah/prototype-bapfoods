@@ -1,19 +1,19 @@
-- icon: react.svg
+- icon: bulgogi
   heading: Bulgogi Beef Sandwich
   subheading: Bap, bulgogi beef, salad, cheese, egg
   price: 7
 
-- icon: react.svg
+- icon: bibimbapmeat
   heading: Bulgogi Beef Bibimbap
   subheading: Rice, bulgogi beef, salad, vegetables, cheese, egg
   price: 7
 
-- icon: react.svg
+- icon: bibimbapnomeat
   heading: Vegetarian Bibimbap
   subheading: Rice bowl, salad, vegetables, egg
   price: 6
 
-- icon: react.svg
+- icon: chicken
   heading: Korean Sweet Crispy Chicken
   subheading: Fried chicken, Korean sweet sauce
   price: 5
