@@ -90,6 +90,10 @@ function initMap() {
     }
   </script>
 
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFj28dOquwWHG-dw91ku28BaAcHFGIyDk&callback=initMap">
+  </script>
+
 {% assign footer_image_asset_path =  page.footer_image | prepend: '/assets/images/' | relative_url %}
 
 <section class="bg-blue pv5 cover bg-bottom" style="background-image: url('{{footer_image_asset_path}}')">
