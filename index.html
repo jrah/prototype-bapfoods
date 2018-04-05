@@ -8,7 +8,7 @@ header_title: >-
   The best authentic
   Korean food in London
 order: 1
-header_image: timothy-ries-195501-unsplash.jpg
+header_image: jeonguk-ha-464762-unsplash.jpg
 footer_image: drew-graham-547573-unsplash.jpg
 map: 1
 ---
@@ -75,15 +75,19 @@ map: 1
 </section>
 
 
-<script>
+<script>51.5322913,-0.0988669
+51.532472, -0.096661
+
+
 function initMap() {
-  const latLng1 = {lat: -33.8568, lng: 151.2153};
+  const latLng1 = {lat: 51.5568, lng: -0.09666};
   const map1 = new google.maps.Map(document.getElementById('map1'), {
     zoom: 14,
     center: latLng1,
-    mapTypeControl: true
+    mapTypeControl: true,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
   });
-  const marker1 = new google.maps.Marker({
+  myMarker = new google.maps.Marker({
     position: map1,
     map: map1
   });
