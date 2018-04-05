@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
+
+{% include head.html %}
+
+<body>
+  <div class="site-canvas">
+    {% include header.html %}
+    <main aria-label="Content">
+      <header class="overflow-hidden relative pv5 vh-100 flex items-center justify-center cover" style="background-image: url('{{ '/assets/images/ant-rozetsky-272965-unsplash.jpg' | relative_url }}')">
+        <div class="z-4 tc relative mh6-ns mh4 pv3 white mw7">
+          {% if page.header_title %}
+          <h1 class="f3 f1-ns">{{page.header_title}}</h1> {% else %}
+          <h1 class="f1-ns f3-m f3 fw8 ma0 mb3">No page header title</h1> {% endif %}
+        </div>
+        <div class="overlay absolute db top-0 left-0 bottom-0 right-0 z-1"></div>
+      </header>
+      <article>
+
+        {{ content }}
+
+      </article>
+
+    </main>
+    {% include footer.html %}
+  </div>
+  <script src="{{ "assets/js/overlayMenu.js " | relative_url }}" charset="utf-8"></script>
+  <script src="{{ "assets/js/objectFitPolyfill.js " | relative_url }}" charset="utf-8"></script>
+</body>
+</html>
