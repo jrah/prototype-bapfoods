@@ -28,7 +28,7 @@ map: 1
     <div class="foodMenu relative">
 
       <h2 class="tc ma0 mb5"><span class="clip">Menu</span><img src="{{'/assets/images/menu.svg'}}" width="256" height="64" alt="menu icon"></h2>
-      <img src="{{ 'cardaccepted.svg' | prepend: '/assets/images/' | relative_url}}" alt="credit cards accepted" height="45" width="75" class="absolute top-0 left-0 mv1 ph3">
+      <img src="{{ 'cardaccepted.svg' | prepend: '/assets/images/' | relative_url}}" alt="credit cards accepted" height="253" width="48" class="absolute top-0 left-0 mv1 ph3">
       <div class="flex flex-ns flex-wrap">
         {% for item in site.data.menu %}
         {% assign price =  item.price | prepend: '£' %}
@@ -62,7 +62,7 @@ map: 1
     <div class="w-50-ns w-100 pa5-ns pa3 flex flex-column justify-center">
       <address class="fs-normal mb3">
       <span class="fw8 f4">Canopy Market</span><br>
-      1 Wharf Rd, Kings Cross, London N1C 4BZ
+      Granary Square, Kings Cross, London N1C 4BZ
       </address>
       <div class="mb3">
         <span class="db">Friday</span>
@@ -80,7 +80,7 @@ map: 1
 <script>
 
 function initMap() {
-  const latLng1 = {lat: 51.536010, lng: -0.123455};
+  const latLng1 = {lat: 51.535193, lng: -0.125238};
   const map1 = new google.maps.Map(document.getElementById('map1'), {
     zoom: 15,
     center: latLng1,
