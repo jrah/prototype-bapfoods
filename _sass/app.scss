@@ -4,6 +4,7 @@ $light-purple: #575f73;
 $navy: #181e2d;
 $dark-gray: #1d2124;
 $yellow: #e4ad41;
+$near-black: #1d2124;
 
 
 $primary: $yellow;
@@ -92,7 +93,7 @@ $primary: $yellow;
 
 
 .overlay {
-  background-image: linear-gradient(205deg, rgba($purple, .9), rgba(darken($purple, 50%), .9));
+  background-image: linear-gradient(205deg, rgba($near-black, .5), rgba(darken($near-black, 50%), .5));
 }
 
 .object-cover {
