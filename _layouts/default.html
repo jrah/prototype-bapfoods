@@ -9,7 +9,7 @@
     <main aria-label="Content">
       {% assign header_image_asset_path =  page.header_image | prepend: '/assets/images/' | relative_url %}
       <header class="overflow-hidden relative pv5 vh-75 flex items-center justify-center cover" style="background-image: url('{{header_image_asset_path}}')">
-        <div class="z-4 tc relative mh6-ns mh4 pv3 white mw6">
+        <div class="z-4 tc relative mh6-ns mh4 pv3 white mw6 ttc">
           {% if page.header_title %}
           <h1 class="f2 f1-ns">{{ page.header_title }}</h1> {% else %}
           <h1 class="f1-ns f3-m f3 fw8 ma0 mb3">No page header title</h1> {% endif %}
