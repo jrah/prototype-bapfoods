@@ -6,4 +6,11 @@
   @include mq(ns) {
     padding: 2rem;
   }
+
+  &-outer {
+    @include mq(ns) {
+      margin: 0 8.7rem;
+    }
+    margin: 0 1rem;
+  }
  }
