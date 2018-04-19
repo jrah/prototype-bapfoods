@@ -5,12 +5,12 @@
 
 - icon: bibimbapmeat
   heading: Bulgogi Beef Bibimbap
-  subheading: Rice, bulgogi beef, salad, vegetables, cheese, egg
+  subheading: Rice, bulgogi beef, mixed salad, vegetables, cheese, egg
   price: 7
 
 - icon: bibimbapnomeat
   heading: Vegetarian Bibimbap
-  subheading: Rice bowl, salad, vegetables, egg
+  subheading: Rice bowl, mixed salad, vegetables, egg
   price: 6
 
 - icon: chicken
