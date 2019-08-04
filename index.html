@@ -75,24 +75,6 @@ map: 1
       </div>
     </div>
   </div>
-
-  <div class="flex-ns mh6-ns">
-    <div class="w-50-ns w-100">
-      <div class="">
-        <div id="map2" class="w-100" style="height: 25rem;"></div>
-      </div>
-    </div>
-    <div class="w-50-ns w-100 pa5-ns pa3 flex flex-column justify-center">
-      <address class="fs-normal mb3">
-      <span class="fw8 f4">Street Food Union</span><br>
-      Rupert St, Soho, London W1D 7PQ
-      </address>
-      <div class="mb3">
-        <span class="db">Tuesday to Friday</span>
-        <time class="db">11:00-15:00</time>
-      </div>
-    </div>
-  </div>
 </section>
 
 
@@ -109,17 +91,6 @@ function initMap() {
   const marker1 = new google.maps.Marker({
     position: latLng1,
     map: map1
-  });
-  const latLng2 = {lat: 51.512122, lng: -0.1336072};
-  const map2 = new google.maps.Map(document.getElementById('map2'), {
-    zoom: 15,
-    center: latLng2,
-    mapTypeControl: true,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  });
-  const marker2 = new google.maps.Marker({
-    position: latLng2,
-    map: map2
   });
     }
   </script>
